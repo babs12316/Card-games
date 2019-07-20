@@ -37,19 +37,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Install with Docker
-
-To build the image, you can run the following command from the project root folder, where your Dockerfile is:
-### `docker build -t card-games-app .`
-
-With the -t you specify the name of the image, and with the . you specify the build context (e.g. the current folder). When the build completes, the last line should look something like this:
-### `Successfully tagged card-games-app:latest`
-
-Finally, run this container. To run it locally, you need to provide the name of the image and the port we want the React app to be accessible on. Note that we used port 80 in the serve command, so need to make sure to use 80 when specifying the container port like this:
-### `docker run -it -p 8080:80 card-games-app`
-
-Once the container is running, you can open http://localhost:8080 and you'll be able to access the React app running inside the Docker container.
-
 
 
 
