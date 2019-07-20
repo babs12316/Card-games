@@ -50,6 +50,8 @@ With the -t you specify the name of the image, and with the . you specify the bu
 Finally, run this container. To run it locally, you need to provide the name of the image and the port we want the React app to be accessible on. Note that we used port 80 in the serve command, so need to make sure to use 80 when specifying the container port like this:
 ### `docker run -it -p 8080:80 card-games-app`
 
+Once the container is running, you can open http://localhost:8080 and you'll be able to access the React app running inside the Docker container.
+
 
 
 
