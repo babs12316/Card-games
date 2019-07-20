@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 This will install node_modules directory by installing all packages mentioned in package.json.
 
-In the project directory, you can run:
+ You can run:
 
 ### `npm start`
 
