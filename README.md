@@ -39,8 +39,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Install with Docker
 
-Download and keep the card-game-2 in docker directory. 
-
 To build the image, you can run the following command from the project root folder, where your Dockerfile is:
 ### `docker build -t card-games-app .`
 
