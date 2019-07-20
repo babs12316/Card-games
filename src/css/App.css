@@ -97,7 +97,7 @@ position: absolute;
 background-color: #fff;
 z-index: 4;
 float: left;
-border: 84px solid #ccc;
+border: 84px solid grey;
 border-radius: 35px;
 transform: rotateY(360deg);
 }
@@ -163,7 +163,8 @@ border-radius: 15px;
 box-shadow: 0 9px #4CAF50;
 }
 .detailview button:hover{
-background-color: #3e8e41
+background-color: #3e8e41;
+box-shadow: 0 9px #3e8e41;
 }
 .detailview button:active{
 background-color: #3e8e41;
